@@ -7,12 +7,25 @@ body {
   background-color: #F0F0F0;
   color: #3D483D;
   font-family: "Titillium Web", sans-serif;
+  font-size: 14px;  
 }
+
+h2 {
+  font-size: 2.2em;
+}
+h3 {
+  font-size: 1.8em;
+}
+h4 {
+  font-size: 1.5em;
+}
+
 
 @media (max-width: 768px) {
   body {
     font-size: 12px;
   }
+
 }
 
 .main {
@@ -132,7 +145,6 @@ body {
 
 .intro__title, .intro__paragraph  {
   color: white;
-  opacity: 1;
   padding: 10px;
   text-shadow: 1px 1px 4px #000000;
 }
@@ -151,6 +163,12 @@ body {
   flex-wrap: wrap;
   gap: 20px;
   margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .for-newcomers__grid, .for-experienced__grid{
+    justify-content: center;
+  }
 }
 
 .article-card {
@@ -184,7 +202,7 @@ body {
 }
 
 .article-card__description {
-  font-size: 14px;
+  font-size: 12px;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 4;
