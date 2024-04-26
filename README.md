@@ -6,7 +6,7 @@ Welcome to the repository for our board game blog, where we explore the vast and
 
 - **Semantic HTML**: The website uses semantic HTML to ensure that the structure of the pages is meaningful and accessible. Proper use of HTML5 tags helps in maintaining clean and standard-compliant markup, which is also beneficial for SEO and accessibility.
 
-- **CSS**: Styling is handled via CSS, ensuring that the site is visually appealing and functional on any device. We use modern CSS practices to provide a responsive and user-friendly experience.
+- **CSS**: Styling is handled via CSS, ensuring that the site is visually appealing and functional on any device. We use modern CSS practices to provide a responsive and user-friendly experience. The CSS follows the BEM (Block Element Modifier) methodology, which helps in creating reusable components and code sharing in frontend development, making the CSS easier to read and maintain.
 
 - **JavaScript (JS)**: JavaScript is used to enhance interactivity and ensure a dynamic user experience. It handles DOM manipulations, event handling, and asynchronous operations that make the website more engaging.
 
@@ -15,6 +15,10 @@ Welcome to the repository for our board game blog, where we explore the vast and
 ## AI-Generated Images
 
 All images on this blog, including game covers and thematic illustrations, were created with the help of AI technologies. These images are designed to capture the essence of each game and contribute visually to our content.
+
+## BEM Methodology
+
+We utilize the BEM methodology for naming our CSS classes. BEM stands for Block Element Modifier and is a methodology that helps you to create reusable components and better structure your CSS. By following BEM, we ensure that our styles are modular, which makes the website easier to update and maintain.
 
 ## Contributions
 
